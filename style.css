@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 40px auto;
+}
+
+.block {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 280px;
+  height: 280px;
+  box-shadow: 0px 0px 10px rgb(130, 112, 112);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px;
+}
+.title {
+}
+
+.tittle h3 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 340;
+}
+
+.date {
+}
+
+.date p {
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.content {
+}
+
+.content p {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 0px 18px 0px;
+  opacity: 0.6;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  bottom: 50px;
+  opacity: 0.5;
+}
+
+.profile {
+  display: flex;
+  /* border-top: 1px solid red; */
+  height: 50px;
+  align-items: center;
+  /* border: 1px solid pink; */
+  position: absolute;
+  bottom: 0px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.profile-desc {
+  margin-left: 7px;
+}
+
+.profile-desc h2 {
+  font-size: 17px;
+  color: rgb(7, 181, 181);
+}
+
+.profile-desc h4 {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.section button {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: rgb(230, 76, 76);
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.new-sec {
+  padding: 0px;
+}
+
+.merge {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+
+.title-merge {
+  position: absolute;
+  bottom: 40px;
+  left: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.merge img {
+  width: 100%;
+  height: 102%;
+}
+
+.new-title h3 {
+  font-weight: 400;
+}
+
+.new-date p {
+  opacity: 1;
+}
+
+.new-profile {
+  padding-left: 15px;
+}
